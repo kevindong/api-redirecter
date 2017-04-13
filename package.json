@@ -1,0 +1,20 @@
+{
+  "name": "api-redirecter",
+  "version": "0.0.1",
+  "description": "Bypasses CORS by redirecting the HTTP call to a proxy (this).",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevindong/api-redirecter.git"
+  },
+  "author": "Kevin Dong",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.15.2",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.3"
+  }
+}
